@@ -1,6 +1,8 @@
 html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
+  font-weight: bold;
+  color: white;
 }
 
 /*header*/
@@ -10,9 +12,9 @@ header {
 }
 
 .content{
-  width: 960px;
+  max-width: 960px;
   margin: auto;
-  border: solid white;
+  border: solid green;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -35,8 +37,6 @@ header img {
 }
 
 .arrival {
-  
-  margin: auto;
   background-color: black;
   color: white;
   width: 20rem;
@@ -44,5 +44,46 @@ header img {
   font-weight: bold;
   padding: 2rem 3rem;
   border: solid white;
+}
+
+.ban {
+  width: 960px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*menu*/
+.menu {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  max-width: 960px;
+  margin: 3rem auto;
+  border: black solid;
+  color: black;
+  display: flex;
+}
+
+.prod img{
+  height: 9rem;
+  padding: 2rem;
+  display: flex;
+  border: black solid;
+}
+
+.glasses img {
+  width: 30%;
+  height: auto;
+}
+
+.prod span {
 
 }
