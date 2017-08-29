@@ -14,7 +14,6 @@ header {
 .content{
   max-width: 960px;
   margin: auto;
-  border: solid green;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -33,7 +32,6 @@ header img {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  border: solid white;
 }
 
 .arrival {
@@ -43,13 +41,17 @@ header img {
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem 3rem;
-  border: solid white;
 }
 
 .ban {
   width: 960px;
   display: flex;
   justify-content: flex-start;
+}
+
+.banner h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 /*menu*/
@@ -64,26 +66,82 @@ nav {
   justify-content: space-between;
 }
 
+
+/*products*/
 .products {
   max-width: 960px;
   margin: 3rem auto;
-  border: black solid;
-  color: black;
   display: flex;
+  justify-content: space-between;
+}
+
+.prod {
+  width: 30%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 4px black solid;
+  justify-content: center;
 }
 
 .prod img{
   height: 9rem;
   padding: 2rem;
-  display: flex;
-  border: black solid;
-}
-
-.glasses img {
-  width: 30%;
-  height: auto;
 }
 
 .prod span {
+width: 100%;
+background-color: black;
+padding: 0.5rem;
+align-self: flex-end;
+display: flex;
+justify-content: center;
 
+}
+.glasses img{
+max-width: 9rem;
+height: auto;
+}
+
+/*info*/
+.info{
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  font-weight: normal;
+}
+
+.location, .hours {
+  width: 35%;
+}
+
+.location h3, .hours h3 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+
+/*footer*/
+footer {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  width: 960px;
+}
+footer span {
 }
