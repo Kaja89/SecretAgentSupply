@@ -21,10 +21,62 @@
     text-align: center;
   }
 
-.arrival h1{
+  .arrival h1{
     font-size: 1.8rem;
   }
 }
+
+/*470px*/
+@media only screen and (max-width: 470px) {
+header span {
+  display: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.banner{
+  max-height: 15rem;
+}
+
+
+.banner .arrival {
+  margin-top: 10rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+  .banner h4 {
+  font-size: 0.77rem;
+  }
+  
+  .banner h1 {
+  font-size: 1rem;
+  }
+
+  .products .watch {
+    display: none;
+  }
+  .products .prod {
+    width: 90%;
+    margin: auto;
+  }
+
+  .info .hours, .info .location {
+    width: 90%;
+    margin: 0.5rem auto 0 auto;
+  }
+  .info {
+    flex-direction: column;
+  }
+
+  footer .foot {
+    justify-content: center;
+  }
+}
+/*end media*/
+
 
 html {
   font-family: Helvetica, sans-serif;
