@@ -1,3 +1,31 @@
+@media only screen and (max-width: 1024px) {
+  .products .glasses {
+    display: none;
+  }
+
+  .products {
+  justify-content: center;
+  }
+
+  .products .pen, .products .watch {
+    width: 47%;
+  }
+
+  .menu nav {
+    display: none;
+  }
+
+  .menu #menu {
+    color: white;
+    display: block;
+    text-align: center;
+  }
+
+.arrival h1{
+    font-size: 1.8rem;
+  }
+}
+
 html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
@@ -64,6 +92,10 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+#menu {
+  display: none;
 }
 
 
