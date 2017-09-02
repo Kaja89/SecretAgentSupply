@@ -4,7 +4,7 @@
   }
 
   .products {
-  justify-content: center;
+    justify-content: center;
   }
 
   .products .pen, .products .watch {
@@ -50,7 +50,7 @@ header {
   .banner h4 {
   font-size: 0.77rem;
   }
-  
+
   .banner h1 {
   font-size: 1rem;
   }
@@ -88,7 +88,6 @@ html {
 /*header*/
 header {
   background-color: black;
-  color: white;
 }
 
 .content{
@@ -226,6 +225,4 @@ footer {
 
 .foot {
   width: 960px;
-}
-footer span {
 }
